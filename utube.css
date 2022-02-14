@@ -4,12 +4,20 @@ body {
 .header {
   height: 56px;
   background-color: rgb(32, 32, 32);
+  position: sticky;
+  z-index: 999;
 }
 .sidebar {
   width: 16%;
   height: 900px;
   background-color: rgb(33,33,33);
   float:left;
+  position: fixed;
+  color: aliceblue;
+  overflow-y: auto;
+  /* top : 0;
+  bottom:0; */
+
 }
 .main-body {
     width: 100%;
@@ -60,8 +68,9 @@ body {
 } */
 .search-btn{
     float: left;
-    width: 5%;
-    padding: 9px;
+    width: 4%;
+    height: 26px;
+    padding: 7px;
     background: rgb(50,50,50);
     color: white;
     font-size: 20px;
@@ -71,5 +80,33 @@ body {
     cursor: pointer;
     margin-top: 6px;
 }
+.acc-control-tab{
+    float: left;
+    display: flex;
+    padding: 18px;
+}
+
+.acc-control-tab>div{
+    margin: 10px;
+    float:left;
+    width: 60px;
+    color: aliceblue;
+}
+.mic-btn{
+    margin: 9px;
+    height: 22px;
+    width: 24px;
+
+}
+
+.voice-search{
+    background-color: rgb(24,24,24);
+    height: 40px;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10px;
+    border-radius: 62px;
+}
+
 
 
