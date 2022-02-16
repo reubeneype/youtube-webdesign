@@ -6,41 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube</title>
     <link href="utube.css" type="text/css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
     <div class="header">
       <div class="menu-options">
-        <div class="menu"></div>
-        <div class="menu"></div>
-        <div class="menu"></div>
+        <span class="material-icons">
+          menu
+          </span>
       </div>
-      <img class="yt-logo" src="yt-logo.svg" alt="YouTube logo" />
-      <div class="search-box">
-        <input class="search-input" type="text" placeholder="Search" />
-      </div>
-      <img class="search-btn" src="yt-search-icon.svg" alt="Search logo" />
-      <a class="voice-search" href="">  
-        <img class="mic-btn" src="yt-mic.svg" alt="Mic icon" />
+      <a href="#">
+        <img class="yt-logo" src="yt-logo.svg" alt="YouTube logo" />
       </a>
-      
-      <div class="acc-control-tab">
-        <div class="studio">
-          <i>studio</i>
-        </div>
-        <div class="yt-others">
-          <i>others</i>
-        </div>
+      <form class="search-box">
 
-        <div class="notifications">
-          <i>notif</i>
-        </div>
-        <div class="profile-settings">
-          <i>prof</i>
-        </div>
+        <input class="search-input" type="text" placeholder="Search" />
+        <button type="submit" class="search-btn">
+          <img src="yt-search-icon.svg" alt="Search logo" />
+        </button>
+        <a class="voice-search" href="">  
+          <img class="mic-btn" src="yt-mic.svg" alt="Mic icon" />
+        </a>
+      </form>
+      
+      <div class="menu-icons">
+       <a href="#">
+         <img src="add-video-yt.svg" alt="Upload video" />
+       </a>
+       <a href="#">
+         <img src="more-menu-yt.svg" alt="Upload video" />
+       </a>
+       <a href="#">
+         <img src="notification-yt.svg" alt="Upload video" />
+       </a>
+       <a href="#">
+         <img  class="profile-image" src="http://unsplash.it/36/36?gravity=center" alt="Channel icon" />
+       </a>
       </div>
     </div>
 
